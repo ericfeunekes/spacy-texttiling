@@ -1,3 +1,6 @@
+*.mypy_cache
+*.code-workspace
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -103,7 +106,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.spacy-textiling-venv
 env/
 venv/
 ENV/
